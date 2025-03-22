@@ -13,8 +13,9 @@ public class Main {
         frame.add(panel);
         frame.pack();
 
-
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
+        panel.startGameThread();
+
     }
 }
